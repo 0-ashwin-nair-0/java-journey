@@ -1,5 +1,6 @@
 package com.thread.practice;
-
+//Extending thread is actually not a good idea
+//Thread is a class that implements Runnable
 class SafeWork extends Thread
 {
     public void run(){
