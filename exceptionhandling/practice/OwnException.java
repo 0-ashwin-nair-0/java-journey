@@ -15,7 +15,7 @@ public class OwnException {
             }
             System.out.println(name+" hieee!!");
         }catch (AshwinException e){
-            System.out.println("Please don't call Ashwin\n "+e.getMessage());
+            System.out.println("Please don't call Ashwin\n"+e.getMessage());
         }
     }
 }
