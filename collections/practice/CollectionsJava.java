@@ -10,6 +10,8 @@ import java.util.Collection;
 //It is a dynamic array - as normal array is static - but this is dynamic changes its size according to need
 public class CollectionsJava {
     public static void main(String[] args) {
+        //Wrting collection here does not gives us indexing if we want indexing
+        //we should use List - this will help us in getting indexing
         Collection<Integer> nums = new ArrayList<Integer>();
         nums.add(5);
         nums.add(6);
