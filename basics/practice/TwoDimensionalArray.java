@@ -15,7 +15,7 @@ public class TwoDimensionalArray {
             for(int j = 0; j<columns;j++){
 // In a 2D int array:
 // The outer array contains references to row arrays.
-// Each row array contains the actual integer values (columns).           
+// Each row array contains the actual integer values (columns).
 
                 matrix[i][j] = sc.nextInt();
             }
